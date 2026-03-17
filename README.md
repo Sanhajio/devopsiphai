@@ -24,6 +24,7 @@ Most vibe-coded projects ship fast. Every time I onboard on a new project, I fin
    If errors are reported, can I roll back the application, the database, and the frontend independently — and do I have a runbook for each?
 
 These are the questions that matter when you are running a live product with a small team. The ARC score is the answer to all five, expressed as a grade.
+Scoring is kind of gamifying the process of getting to a operationally good project.
 
 ---
 
@@ -111,9 +112,9 @@ Every item names an actual file, script, or config. M and L tasks are broken int
 
 ```bash
 # Clone the repo
-git clone https://github.com/sanhajio/devopsiphai
+git clone https://github.com/sanhajio/devopsiphai ~/.claude/skills/
 
-# Copy the skill to Claude Code's skills directory
+# Or copy the skill to Claude Code's skills directory
 cp -r devopsiphai/skills/devopsiphai ~/.claude/skills/
 ```
 
@@ -255,7 +256,7 @@ To contribute improvements:
 The most valuable contributions are: checks that should exist but don't, output formats that are hard to read, and TODO items that weren't granular enough to act on.
 You can find me on:
 - [LinkedIn](https://www.linkedin.com/in/omar-sanhaji/)
-- [](https://x.com/sanhaji_o)
+- [X](https://x.com/sanhaji_o)
 
 
 ---
